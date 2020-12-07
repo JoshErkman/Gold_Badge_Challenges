@@ -1,0 +1,10 @@
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\bin\Debug\Gold Badge Challenges.exe.config
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\bin\Debug\Gold Badge Challenges.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\bin\Debug\Gold Badge Challenges.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\bin\Debug\Gold Badge Challenges_Repository.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\bin\Debug\Gold Badge Challenges_Repository.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\obj\Debug\01_Komodo_Cafe_Console.csprojAssemblyReference.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\obj\Debug\01_Komodo_Cafe_Console.csproj.CoreCompileInputs.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\obj\Debug\01_Komodo_Cafe_Console.csproj.CopyComplete
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\obj\Debug\Gold Badge Challenges.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges\obj\Debug\Gold Badge Challenges.pdb
