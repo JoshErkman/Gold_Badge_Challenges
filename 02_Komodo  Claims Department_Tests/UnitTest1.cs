@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Gold_Badge_Challenges_Tests
+namespace _02_Komodo__Claims_Department_Tests
 {
     [TestClass]
     public class UnitTest1

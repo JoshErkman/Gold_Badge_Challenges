@@ -1,0 +1,16 @@
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Gold Badge Challenges_Tests.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Gold Badge Challenges_Tests.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Gold Badge Challenges_Repository.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Gold Badge Challenges_Repository.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\obj\Debug\01_Komodo_Cafe_Tests.csprojAssemblyReference.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\obj\Debug\01_Komodo_Cafe_Tests.csproj.CoreCompileInputs.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\obj\Debug\01_Komodo_Cafe_Tests.csproj.CopyComplete
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\obj\Debug\Gold Badge Challenges_Tests.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\Gold Badge Challenges_Tests\obj\Debug\Gold Badge Challenges_Tests.pdb
