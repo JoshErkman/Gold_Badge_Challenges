@@ -1,0 +1,10 @@
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\bin\Debug\02_Komodo Claims Department_Console.exe.config
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\bin\Debug\02_Komodo Claims Department_Console.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\bin\Debug\02_Komodo Claims Department_Console.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\bin\Debug\02_Komodo Claims Department_Repository.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\bin\Debug\02_Komodo Claims Department_Repository.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\obj\Debug\02_Komodo Claims Department_Console.csprojAssemblyReference.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\obj\Debug\02_Komodo Claims Department_Console.csproj.CoreCompileInputs.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\obj\Debug\02_Komodo Claims Department_Console.csproj.CopyComplete
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\obj\Debug\02_Komodo Claims Department_Console.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo Claims Department_Console\obj\Debug\02_Komodo Claims Department_Console.pdb

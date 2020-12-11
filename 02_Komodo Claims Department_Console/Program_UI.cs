@@ -76,7 +76,12 @@ namespace _02_Komodo_Claims_Department_Console
             Queue<Claim> queueOfClaims = _claimsQueue.GetClaims();
             foreach(Claim claim in queueOfClaims)
             {
-                 
+                Console.WriteLine($"\nClaim ID: {claim.ClaimId}\n" +
+                    $"Claim Type: {claim.TypeOfClaim}\n" +
+                    $"Claim Description: {claim.Description}\n" +
+                    $"Claim Amount: ${claim.ClaimAmount}\n" +
+                    $"Date of Incident: {claim.DateOfIncident}\n" +
+                    $"Date of Claim: {claim.DateOfClaim}");    
             }
 
         }
@@ -141,6 +146,10 @@ namespace _02_Komodo_Claims_Department_Console
             Claim claimTwo = new Claim(GenerateIDNumber(), ClaimType.Home, "House was broke into", 2000.00, new DateTime(2020 / 07 / 25), new DateTime(2020 / 07 / 27));
             Claim claimThree = new Claim(GenerateIDNumber(), ClaimType.Theft, "Someone stole my underpants", 2.00, new DateTime(2020 / 01 / 12), new DateTime(2020 / 01 / 20));
 
+            // Add Seeds to queue
+            _claimsQueue.AddClaim(claimOne);
+            _claimsQueue.AddClaim(claimTwo);
+            _claimsQueue.AddClaim(claimThree);
 
         }
     }

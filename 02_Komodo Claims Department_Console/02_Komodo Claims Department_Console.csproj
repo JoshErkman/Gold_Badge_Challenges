@@ -55,10 +55,6 @@
       <Project>{7A43E69B-F63D-40C7-826D-A4AF758B2328}</Project>
       <Name>02_Komodo Claims Department_Repository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gold Badge Challenges_Repository\01_Komodo_Cafe_Repository.csproj">
-      <Project>{d7145f5a-4e64-457f-bd00-f4fa3a2e5438}</Project>
-      <Name>01_Komodo_Cafe_Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
