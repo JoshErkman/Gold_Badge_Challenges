@@ -11,7 +11,7 @@ namespace _02_Komodo_Claims_Department_Console
     class Program_UI
     {
         private Claims_Repository _claimsQueue = new Claims_Repository();
-        private Random _randomID = new Random();
+        private int _nextID = 1;
         public void Run()
         {
             SeedClaims();
@@ -43,6 +43,7 @@ namespace _02_Komodo_Claims_Department_Console
 
                     case "2":
                         // Take Care of next claim
+                        NextClaim();
                         break;
 
                     case "3":
@@ -68,7 +69,7 @@ namespace _02_Komodo_Claims_Department_Console
             }
         }
 
-        // View All Claims
+        // 1 View All Claims
         private void ViewAllClaims()
         {
             Console.Clear();
@@ -80,10 +81,34 @@ namespace _02_Komodo_Claims_Department_Console
                     $"Claim Type: {claim.TypeOfClaim}\n" +
                     $"Claim Description: {claim.Description}\n" +
                     $"Claim Amount: ${claim.ClaimAmount}\n" +
-                    $"Date of Incident: {claim.DateOfIncident}\n" +
-                    $"Date of Claim: {claim.DateOfClaim}");    
+                    $"Date of Incident: {claim.DateOfIncident.ToShortDateString()}\n" +
+                    $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}");    
             }
 
+        }
+
+        // 2 Take Care Of Next Claim
+        private void NextClaim()
+        {
+            Console.Clear();
+
+            // Display next claim
+            Claim claim = _claimsQueue.ViewNextClaim();
+            Console.WriteLine($"\nClaim ID: {claim.ClaimId}\n" +
+                $"Claim Type: {claim.TypeOfClaim}\n" +
+                $"Claim Description: {claim.Description}\n" +
+                $"Claim Amount: ${claim.ClaimAmount}\n" +
+                $"Date of Incident: {claim.DateOfIncident.ToShortDateString()}\n" +
+                $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}");
+
+            Console.WriteLine("\nDo you want to deal with this claim now(y/n)?");
+            string input = Console.ReadLine().ToLower();
+
+            if (input == "y")
+            {
+                _claimsQueue.TakeCareOfClaim();
+            }
+            
         }
 
         // Create New Claim
@@ -99,7 +124,7 @@ namespace _02_Komodo_Claims_Department_Console
             claim.ClaimId = GenerateIDNumber();
 
             // Get Claim Type
-            Console.WriteLine("Enter the claim type number\n" +
+            Console.WriteLine("Enter the claim type by number\n" +
                 "1. Car\n" +
                 "2. Home\n" +
                 "3. Theft");
@@ -119,12 +144,12 @@ namespace _02_Komodo_Claims_Department_Console
             claim.ClaimAmount = claimAmountAsDouble;
 
             // Get Date Of Incident
-            Console.WriteLine("Enter the date of the incedent:");
+            Console.WriteLine("Enter the date of the incedent (mm/dd/yyyy):");
             string dateOfIncidentAsString = Console.ReadLine();
             claim.DateOfIncident = DateTime.Parse(dateOfIncidentAsString);
 
             // Get Date of Claim
-            Console.WriteLine("Enter the date of the claim:");
+            Console.WriteLine("Enter the date of the claim (mm/dd/yyyy):");
             string dateOfClaimAsString = Console.ReadLine();
             claim.DateOfClaim = DateTime.Parse(dateOfClaimAsString);
 
@@ -134,17 +159,19 @@ namespace _02_Komodo_Claims_Department_Console
         // Generate random ID
         private string GenerateIDNumber()
         {
-            int ID = _randomID.Next(000, 999);
-            ID = _randomID.Next(000, 999);
+            int ID = _nextID;
+
+            _nextID++; 
             return ID.ToString();
+            
         }
 
         // Seed Claims
         public void SeedClaims()
         {
-            Claim claimOne = new Claim(GenerateIDNumber(), ClaimType.Car, "Car accident on 464.", 400.00, new DateTime(2020 / 10 / 10), new DateTime(2020 / 10 / 14));
-            Claim claimTwo = new Claim(GenerateIDNumber(), ClaimType.Home, "House was broke into", 2000.00, new DateTime(2020 / 07 / 25), new DateTime(2020 / 07 / 27));
-            Claim claimThree = new Claim(GenerateIDNumber(), ClaimType.Theft, "Someone stole my underpants", 2.00, new DateTime(2020 / 01 / 12), new DateTime(2020 / 01 / 20));
+            Claim claimOne = new Claim(GenerateIDNumber(), ClaimType.Car, "Car accident on 464.", 400.00, new DateTime(2018 , 04 , 25), new DateTime(2018 , 04 , 27));
+            Claim claimTwo = new Claim(GenerateIDNumber(), ClaimType.Home, "House was broke into", 2000.00, new DateTime(2020 , 07 , 25), new DateTime(2020 , 07 , 27));
+            Claim claimThree = new Claim(GenerateIDNumber(), ClaimType.Theft, "Someone stole my underpants", 2.00, new DateTime(2020 , 01 , 12), new DateTime(2020 , 01 , 20));
 
             // Add Seeds to queue
             _claimsQueue.AddClaim(claimOne);

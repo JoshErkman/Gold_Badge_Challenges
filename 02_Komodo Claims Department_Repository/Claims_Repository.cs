@@ -22,9 +22,16 @@ namespace _02_Komodo_Claims_Department_Repository
             return _claims;
         }
 
+        public Claim ViewNextClaim()
+        {
+            return _claims.Peek();
+        }
+        
+        // Take Care of Next Claim
+        public void TakeCareOfClaim()
+        {
+            _claims.Dequeue();
+        }
 
-        // Update
-
-        // Delete
     }
 }
