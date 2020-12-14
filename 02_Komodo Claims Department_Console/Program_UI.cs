@@ -83,7 +83,8 @@ namespace _02_Komodo_Claims_Department_Console
                     $"Claim Description: {claim.Description}\n" +
                     $"Claim Amount: ${claim.ClaimAmount}\n" +
                     $"Date of Incident: {claim.DateOfIncident.ToShortDateString()}\n" +
-                    $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}");
+                    $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}\n" +
+                    $"Is Valid: {claim.IsValid}");
             }
 
         }
@@ -101,7 +102,7 @@ namespace _02_Komodo_Claims_Department_Console
                 $"Claim Amount: ${claim.ClaimAmount}\n" +
                 $"Date of Incident: {claim.DateOfIncident.ToShortDateString()}\n" +
                 $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}");
-
+            
             Console.WriteLine("\nDo you want to deal with this claim now(y/n)?");
             string input = Console.ReadLine().ToLower();
 

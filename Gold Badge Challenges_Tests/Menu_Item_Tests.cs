@@ -5,9 +5,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Gold_Badge_Challenges_Tests
 {
     [TestClass]
-    public class CafeTests
+    public class Menu_Item_Tests
     {
         [TestMethod]
+        // Testing Property
         public void TestMethod1()
         {
             Menu_Item item = new Menu_Item();

@@ -26,7 +26,7 @@ namespace _02_Komodo_Claims_Department_Repository
             {
                 if (DateOfIncident.AddDays(30) > DateOfClaim)
                 {
-                    return false;
+                    return true;
                 }
                 else if (DateOfIncident > DateOfClaim)
                 {
@@ -34,7 +34,7 @@ namespace _02_Komodo_Claims_Department_Repository
                 }
                 else
                 {
-                    return true;
+                    return false;
                 }
             }
         }
