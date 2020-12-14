@@ -1,0 +1,6 @@
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\04_Formatting Practice_Console\bin\Debug\04_Formatting Practice_Console.exe.config
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\04_Formatting Practice_Console\bin\Debug\04_Formatting Practice_Console.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\04_Formatting Practice_Console\bin\Debug\04_Formatting Practice_Console.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\04_Formatting Practice_Console\obj\Debug\04_Formatting Practice_Console.csproj.CoreCompileInputs.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\04_Formatting Practice_Console\obj\Debug\04_Formatting Practice_Console.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\04_Formatting Practice_Console\obj\Debug\04_Formatting Practice_Console.pdb

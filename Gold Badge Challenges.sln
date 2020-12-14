@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Komodo Claims Department
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Komodo Claims Department_Tests", "02_Komodo  Claims Department_Tests\02_Komodo Claims Department_Tests.csproj", "{C038EFB6-11D2-46CF-8E31-9767DAA72A54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo Insurance_Console", "03_Komodo Insurance_Console\03_Komodo Insurance_Console.csproj", "{2FDB00CF-1A46-4BEA-BAD4-C25244830691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo Insurance_Repository", "03_Komodo Insurance_Repository\03_Komodo Insurance_Repository.csproj", "{711E5B9A-D402-463D-A01D-9F4074096441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo Insurance_Tests", "03_Komodo Insurance_Tests\03_Komodo Insurance_Tests.csproj", "{3AD5FFF6-EA8E-46FC-904E-CA565BDE238F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Formatting Practice_Console", "04_Formatting Practice_Console\04_Formatting Practice_Console.csproj", "{A77E8227-38E8-409B-9964-77B442E55731}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +53,22 @@ Global
 		{C038EFB6-11D2-46CF-8E31-9767DAA72A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C038EFB6-11D2-46CF-8E31-9767DAA72A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C038EFB6-11D2-46CF-8E31-9767DAA72A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDB00CF-1A46-4BEA-BAD4-C25244830691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDB00CF-1A46-4BEA-BAD4-C25244830691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDB00CF-1A46-4BEA-BAD4-C25244830691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDB00CF-1A46-4BEA-BAD4-C25244830691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711E5B9A-D402-463D-A01D-9F4074096441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711E5B9A-D402-463D-A01D-9F4074096441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711E5B9A-D402-463D-A01D-9F4074096441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711E5B9A-D402-463D-A01D-9F4074096441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD5FFF6-EA8E-46FC-904E-CA565BDE238F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD5FFF6-EA8E-46FC-904E-CA565BDE238F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD5FFF6-EA8E-46FC-904E-CA565BDE238F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD5FFF6-EA8E-46FC-904E-CA565BDE238F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77E8227-38E8-409B-9964-77B442E55731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77E8227-38E8-409B-9964-77B442E55731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77E8227-38E8-409B-9964-77B442E55731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77E8227-38E8-409B-9964-77B442E55731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

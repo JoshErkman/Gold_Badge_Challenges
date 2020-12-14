@@ -74,6 +74,7 @@ namespace _02_Komodo_Claims_Department_Console
         {
             Console.Clear();
 
+
             Queue<Claim> queueOfClaims = _claimsQueue.GetClaims();
             foreach(Claim claim in queueOfClaims)
             {
@@ -82,7 +83,7 @@ namespace _02_Komodo_Claims_Department_Console
                     $"Claim Description: {claim.Description}\n" +
                     $"Claim Amount: ${claim.ClaimAmount}\n" +
                     $"Date of Incident: {claim.DateOfIncident.ToShortDateString()}\n" +
-                    $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}");    
+                    $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}");
             }
 
         }

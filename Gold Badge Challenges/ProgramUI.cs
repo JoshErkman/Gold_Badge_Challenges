@@ -87,7 +87,7 @@ namespace Gold_Badge_Challenges
             Console.WriteLine("Enter item description:");
             item.MealDescription = Console.ReadLine();
 
-            // Get ingredients
+            // Create new list for object
             item.Ingredients = new List<string>();
 
             bool keepAdding = true;

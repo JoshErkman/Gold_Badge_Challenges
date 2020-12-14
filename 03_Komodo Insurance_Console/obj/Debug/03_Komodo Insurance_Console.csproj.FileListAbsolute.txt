@@ -1,0 +1,10 @@
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\bin\Debug\03_Komodo Insurance_Console.exe.config
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\bin\Debug\03_Komodo Insurance_Console.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\bin\Debug\03_Komodo Insurance_Console.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\bin\Debug\03_Komodo Insurance_Repository.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\bin\Debug\03_Komodo Insurance_Repository.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\obj\Debug\03_Komodo Insurance_Console.csprojAssemblyReference.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\obj\Debug\03_Komodo Insurance_Console.csproj.CoreCompileInputs.cache
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\obj\Debug\03_Komodo Insurance_Console.csproj.CopyComplete
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\obj\Debug\03_Komodo Insurance_Console.exe
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Console\obj\Debug\03_Komodo Insurance_Console.pdb
