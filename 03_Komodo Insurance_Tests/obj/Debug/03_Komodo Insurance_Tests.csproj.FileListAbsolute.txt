@@ -12,3 +12,5 @@ C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insur
 C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Tests\obj\Debug\03_Komodo Insurance_Tests.csproj.CopyComplete
 C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Tests\obj\Debug\03_Komodo Insurance_Tests.dll
 C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Tests\obj\Debug\03_Komodo Insurance_Tests.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Tests\bin\Debug\03_Komodo Insurance_Repository.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\03_Komodo Insurance_Tests\bin\Debug\03_Komodo Insurance_Repository.pdb
