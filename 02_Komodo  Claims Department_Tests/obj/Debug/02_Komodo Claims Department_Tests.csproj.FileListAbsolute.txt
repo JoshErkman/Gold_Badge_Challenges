@@ -12,3 +12,5 @@ C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo  Clai
 C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo  Claims Department_Tests\obj\Debug\02_Komodo Claims Department_Tests.csproj.CopyComplete
 C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo  Claims Department_Tests\obj\Debug\02_Komodo  Claims Department_Tests.dll
 C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo  Claims Department_Tests\obj\Debug\02_Komodo  Claims Department_Tests.pdb
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo  Claims Department_Tests\bin\Debug\02_Komodo Claims Department_Repository.dll
+C:\Users\erkma\Desktop\ElevenFiftyProjects\Gold Badge Challenges\02_Komodo  Claims Department_Tests\bin\Debug\02_Komodo Claims Department_Repository.pdb

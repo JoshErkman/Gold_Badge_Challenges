@@ -9,7 +9,7 @@ namespace Gold_Badge_Challenges_Tests
     {
         [TestMethod]
         // Testing Property
-        public void TestMethod1()
+        public void TestingProperiesAreEqual()
         {
             Menu_Item item = new Menu_Item();
             item.MealName = "Royale With Cheese";
