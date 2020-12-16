@@ -16,6 +16,9 @@ namespace _03_Komodo_Insurance_Repository
             _badgeList.Add(badgeID, badge);
         }
 
+
+        
+
         // Read
         public Dictionary<int, Badge> GetBadges()
         {
@@ -46,6 +49,7 @@ namespace _03_Komodo_Insurance_Repository
             {
                 if(entry.Key == ID)
                 {
+
                     return entry.Value;
                 }
             }
