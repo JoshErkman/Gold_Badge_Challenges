@@ -39,5 +39,32 @@ namespace _02_Komodo__Claims_Department_Tests
             // Assert
             Assert.AreEqual(0, claimFromQueue.Count);
         }
+
+        // Read Method
+        [TestMethod]
+        public void ReadMethod_ShouldGetNotNull()
+        {
+            // Arrange
+            _repo.AddClaim(_claim);
+
+            // Act
+            Queue<Claim> claims = _repo.GetClaims();
+
+            // Assert
+            Assert.IsNotNull(claims);
+        }
+
+        [TestMethod]
+        public void ViewNextClaim_ShouldBeEqual()
+        {
+            // Arrange
+            _repo.AddClaim(_claim);
+
+            // Act
+            Claim claim = _repo.ViewNextClaim();
+
+            // Assert
+            Assert.AreEqual(_claim, claim);
+        }
     }
 }

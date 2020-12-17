@@ -122,7 +122,7 @@ namespace _03_Komodo_Insurance_Console
             // Get badge by ID
             Badge badgeToEdit = _badgeRepo.GetBadgeByID(badgeIDAsInt);
 
-            Dictionary<int, Badge> listOfBadges = _badgeRepo.GetBadges();
+            /*Dictionary<int, Badge> listOfBadges = _badgeRepo.GetBadges();
             foreach(Badge badge in listOfBadges.Values)
             {
                 Console.WriteLine($"Badge ID: {badge.BadgeID}");
@@ -132,7 +132,9 @@ namespace _03_Komodo_Insurance_Console
                 {
                     Console.WriteLine($" Door Access: {door}");
                 }
-            }
+            }*/
+
+            Console.Clear();
 
             Console.WriteLine("Select from the menu\n" +
                 "1. Add a door (one at a time)\n" +
@@ -152,18 +154,37 @@ namespace _03_Komodo_Insurance_Console
                     {
                         Console.WriteLine("Enter the door name you would like to add:");
                         string answer = Console.ReadLine();
-                        badgeToEdit.DoorNames.Add(answer);
-
-                        Console.WriteLine("Any other doors you would like to add? y/n");
-                        string anotherAnswer = Console.ReadLine().ToLower();
-
-                        if (anotherAnswer == "y")
+                        if (!badgeToEdit.DoorNames.Contains(answer))
                         {
-                            keepAdding = true;
+                            badgeToEdit.DoorNames.Add(answer);
                         }
                         else
                         {
-                            keepAdding = false;
+                            Console.WriteLine("This door has already been added.");
+                        }
+
+                        bool addAnotherDoor = true;
+                        while (addAnotherDoor)
+                        {
+
+                            Console.WriteLine("Any other doors you would like to add? y/n");
+
+                            string anotherAnswer = Console.ReadLine().ToLower();
+
+                            if (anotherAnswer == "y")
+                            {
+                                keepAdding = true;
+                                addAnotherDoor = false;
+                            }
+                            else if(anotherAnswer == "n")
+                            {
+                                keepAdding = false;
+                                addAnotherDoor = false;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Invalid entry, please try again.");
+                            }
                         }
                     }
                     break;
@@ -177,18 +198,36 @@ namespace _03_Komodo_Insurance_Console
                     {
                         Console.WriteLine("Enter the door name you would like to remove:");
                         string answer = Console.ReadLine();
-                        badgeToEdit.DoorNames.Remove(answer);
-
-                        Console.WriteLine("Any other doors you would like to remove? y/n");
-                        string anotherAnswer = Console.ReadLine().ToLower();
-
-                        if (anotherAnswer == "y")
+                        if (!badgeToEdit.DoorNames.Contains(answer))
                         {
-                            keepRemoving = true;
+                            Console.WriteLine("This door does not exist for removal.");
                         }
                         else
                         {
-                            keepRemoving = false;
+                            badgeToEdit.DoorNames.Remove(answer);
+                        }
+
+                        bool removeAnotherDoor = true;
+                        while (removeAnotherDoor)
+                        {
+
+                            Console.WriteLine("Any other doors you would like to remove? y/n");
+                            string anotherAnswer = Console.ReadLine().ToLower();
+
+                            if (anotherAnswer == "y")
+                            {
+                                keepRemoving = true;
+                                removeAnotherDoor = false;
+                            }
+                            else if(anotherAnswer == "n")
+                            {
+                                keepRemoving = false;
+                                removeAnotherDoor = false;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Invalid entry, please try again.");
+                            }
                         }
                     }
                     break;

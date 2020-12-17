@@ -62,7 +62,7 @@ namespace _02_Komodo_Claims_Department_Console
                         break;
                 }
 
-                Console.WriteLine("Please press any key to continue...");
+                Console.WriteLine("\n\n\nPlease press any key to continue...");
                 Console.ReadKey();
                 Console.Clear();
 
@@ -76,15 +76,10 @@ namespace _02_Komodo_Claims_Department_Console
 
 
             Queue<Claim> queueOfClaims = _claimsQueue.GetClaims();
+            Console.WriteLine("{0,-10} {1,-10} {2,-30} {3,-8} {4,-18} {5,-15} {6,-5}\n", "ClaimID", "Type", "Description", "Amount", "DateOfIncident", "DateOfClaim", "IsValid");
             foreach(Claim claim in queueOfClaims)
             {
-                Console.WriteLine($"\nClaim ID: {claim.ClaimId}\n" +
-                    $"Claim Type: {claim.TypeOfClaim}\n" +
-                    $"Claim Description: {claim.Description}\n" +
-                    $"Claim Amount: ${claim.ClaimAmount}\n" +
-                    $"Date of Incident: {claim.DateOfIncident.ToShortDateString()}\n" +
-                    $"Date of Claim: {claim.DateOfClaim.ToShortDateString()}\n" +
-                    $"Is Valid: {claim.IsValid}");
+                Console.WriteLine("{0,-10} {1,-10} {2,-30} {3,-8} {4,-18} {5,-15} {6,-5}", claim.ClaimId, claim.TypeOfClaim,claim.Description,claim.ClaimAmount, claim.DateOfIncident.ToShortDateString(), claim.DateOfClaim.ToShortDateString(), claim.IsValid);
             }
 
         }

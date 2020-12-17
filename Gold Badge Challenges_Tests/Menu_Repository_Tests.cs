@@ -9,7 +9,6 @@ namespace Gold_Badge_Challenges_Tests
     public class Menu_Repository_Tests
     {
         private Menu_Repository _repo = new Menu_Repository();
-        private Menu_Item _item;
 
         // Create Method
         [TestMethod]

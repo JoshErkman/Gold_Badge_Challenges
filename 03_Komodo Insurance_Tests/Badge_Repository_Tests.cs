@@ -38,7 +38,7 @@ namespace _03_Komodo_Insurance_Tests
         }
 
         [TestMethod]
-        public void ReadMethod_ShouldGetNull()
+        public void ReadMethod_ShouldGetNotNull()
         {
             // Arrange
             // Act
