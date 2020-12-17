@@ -17,7 +17,6 @@ namespace _03_Komodo_Insurance_Console
             SeedBadges();
             Menu();
         }
-
         private void Menu()
         {
             bool keepRunning = true;
@@ -60,7 +59,6 @@ namespace _03_Komodo_Insurance_Console
                         Console.WriteLine("Please enter a valid number.");
                         break;
                 }
-
                 Console.WriteLine("Please press any key to continue...");
                 Console.ReadKey();
                 Console.Clear();
@@ -78,7 +76,6 @@ namespace _03_Komodo_Insurance_Console
             // Assign badge an ID
             Console.WriteLine("This badge will automatically be assigned an ID.");
             badge.BadgeID = GenerateIDNumber();
-
 
             bool keepAdding = true;
             while (keepAdding)
@@ -122,17 +119,6 @@ namespace _03_Komodo_Insurance_Console
             // Get badge by ID
             Badge badgeToEdit = _badgeRepo.GetBadgeByID(badgeIDAsInt);
 
-            /*Dictionary<int, Badge> listOfBadges = _badgeRepo.GetBadges();
-            foreach(Badge badge in listOfBadges.Values)
-            {
-                Console.WriteLine($"Badge ID: {badge.BadgeID}");
-
-                List<string> doors = badge.DoorNames;
-                foreach(var door in doors)
-                {
-                    Console.WriteLine($" Door Access: {door}");
-                }
-            }*/
 
             Console.Clear();
 
